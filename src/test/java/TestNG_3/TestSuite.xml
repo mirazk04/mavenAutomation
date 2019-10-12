@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" parallel="none">
+    <test name="Regression Suit">
+        <classes>
+            <class name="TestNG_3.Express_TestNG_Data_Driven_Logger" />
+            <class name="TestNG.WeightWatchers_TestNG" />
+            <class name="TestNG_2.TestNG_Assertions" />
+        </classes>
+    </test>
+</suite>
